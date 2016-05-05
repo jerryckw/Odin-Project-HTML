@@ -1,0 +1,116 @@
+*{
+  border: 0.1px solid red;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin: 0;
+}
+
+.col-1{
+	width: 8.333%
+}
+
+.col-2{
+	width: 16.667%
+}
+
+.col-3{
+	width: 25%
+}
+
+.col-4{
+	width: 33.333%
+}
+
+.col-5{
+	width: 41.667%
+}
+
+.col-6{
+	width: 50%
+}
+
+.col-7{
+	width: 58.333%
+}
+
+.col-8{
+	width: 66.667%
+}
+
+.col-9{
+	width: 75%
+}
+
+.col-10{
+	width: 83.333%
+}
+
+.col-11{
+	width: 91.667%
+}
+
+.col-12{
+	width: 100%
+}
+
+
+.navBar{
+	margin:0;
+	padding :0;
+	float: right
+}
+.basic_info{
+	float: right;
+}
+
+.photo, .email, .name{
+	display : inline;
+	padding-right: 30px;
+	float : right;
+}
+
+.mainPhoto{
+	display: block;
+	margin: 50px auto 50px auto;
+	
+}
+
+.searchBar, .submitButtons{
+	margin: 0 auto;
+	/*height:50px;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 50px;*/
+	
+}
+
+.inputText{
+	font-size:30px;
+	width: 550px;   /*length using the number of chars to measure*/
+}
+
+.voiceSearch{
+	float:right;
+	height: 38px;
+	
+}
+
+.searchButton, .specialButton {
+	height :40px;
+	font-size: 30px;
+}
