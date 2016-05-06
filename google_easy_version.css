@@ -79,7 +79,9 @@ body{
 .basic_info{
 	float: right;
 }
-
+.navBar{
+	overflow: hidden;
+}
 .photo, .email, .name{
 	display : inline;
 	padding-right: 30px;
@@ -158,11 +160,14 @@ a:hover{
 */
 .bottom{
 	margin-top:80px;
+	margin-bottom:0;
+	padding:0;
+	background-color: #f2f2f2;
 }
 
 .otherInfo{
 	
-	background-color: #f2f2f2;
+	
 	display: inline;
 }
 
@@ -171,10 +176,11 @@ a:hover{
 	margin:0;
 	list-style-type: none;
 	font-size: 20px;
+	overflow: hidden;
 }
 .google {
 	float: left;
-	margin-right:10px;
+	margin-right:15px;
 }
 
 .google:hover{
@@ -182,7 +188,7 @@ a:hover{
 }
 .user{
 	float: right;
-	margin-left:10px;
+	margin-left:15px;
 }
 
 .user:hover{
