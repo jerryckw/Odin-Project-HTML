@@ -72,7 +72,10 @@ body{
 	margin:0;
 	padding :0;
 	float: right
+	list-style-type: none;
 }
+
+
 .basic_info{
 	float: right;
 }
@@ -81,15 +84,31 @@ body{
 	display : inline;
 	padding-right: 30px;
 	float : right;
+	font-size: 20px;
 }
 
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
 .mainPhoto{
 	display: block;
 	margin: 50px auto 50px auto;
 	
 }
-
-.searchBar, .submitButtons{
+.searchBar{
+	/*
+	
+	*/
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	
+}
+.submitButtons{
 	margin: 0 auto;
 	/*height:50px;
 	font-size: 20px;
@@ -100,14 +119,31 @@ body{
 }
 
 .inputText{
+	
+	/*
 	font-size:30px;
-	width: 550px;   /*length using the number of chars to measure*/
+	width: 90%;
+	width: 90%;
+	margin-right:20px;
+	*/
+	
+	width: 94%;
+	font-size:30px;
+	
 }
 
 .voiceSearch{
-	float:right;
-	height: 38px;
+	 border: 1px solid blue;
+	 /*
 	
+	 	height: 50%;
+		width: 20%;
+	 */
+	 width: 6%;
+	 height: 6%
+	 
+		
+	 
 }
 
 .searchButton, .specialButton {
@@ -115,6 +151,42 @@ body{
 	font-size: 30px;
 }
 
+/*
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+*/
+.bottom{
+	margin-top:80px;
+}
+
+.otherInfo{
+	
+	background-color: #f2f2f2;
+	display: inline;
+}
+
+.footer{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+	font-size: 20px;
+}
+.google {
+	float: left;
+	margin-right:10px;
+}
+
+.google:hover{
+	text-decoration: underline;
+}
+.user{
+	float: right;
+	margin-left:10px;
+}
+
+.user:hover{
+	text-decoration: underline;
+}
 /*Try the Git Rebase Command*/
 /*2nd attempt to the git rebase command*/
 /*3nd attempt to the git rebase command*/
